@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest extends Flib implements IAutoConstant {
-	static WebDriver driver;
+	protected static WebDriver driver;
 	
 	public void setUp() throws IOException//Open Browser
 	{
